@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseRecipe</class>
+ <widget class="QWidget" name="ChooseRecipe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ChooseRecipe</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel {
+	color: #705E5D;
+}</string>
+  </property>
+  <widget class="QPushButton" name="OKc">
+   <property name="geometry">
+    <rect>
+     <x>304</x>
+     <y>540</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #CFA7DE;
+}</string>
+   </property>
+   <property name="text">
+    <string>View Recipe</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>20</y>
+     <width>371</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Elephant</family>
+     <pointsize>26</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	color: #544242;
+}</string>
+   </property>
+   <property name="text">
+    <string>Choosing Recipe</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="srchtext">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>256</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+	background-color: #FCF7EE;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Search for a recipe or ingredient...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="srchbtn">
+   <property name="geometry">
+    <rect>
+     <x>204</x>
+     <y>220</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #CFA7DE;
+}</string>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="srchresult">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>320</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListWidget {
+	background-color: #FCF7EE;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dltbtn">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>540</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #CFA7DE;
+}</string>
+   </property>
+   <property name="text">
+    <string>Delete Recipe</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nofrecipes">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>279</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Elephant</family>
+     <pointsize>10</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	color: #544242;
+}</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

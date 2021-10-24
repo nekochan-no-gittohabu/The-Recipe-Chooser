@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddRecipe</class>
+ <widget class="QWidget" name="AddRecipe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AddRecipe</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QtextEdit {
+	text-color: rgb(255, 170, 255);
+}</string>
+  </property>
+  <widget class="QPushButton" name="OKa">
+   <property name="geometry">
+    <rect>
+     <x>204</x>
+     <y>550</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #CFA7DE;
+}</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="ingrname">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>160</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+	background-color: #FCF7EE;
+}</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Ingredent Name and Amount (eg. salt 1 tspn)</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="ingrlist">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>230</y>
+     <width>431</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListWidget {
+	background-color: #FCF7EE;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addingr">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>200</y>
+     <width>93</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #CFA7DE;
+}</string>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteingr">
+   <property name="geometry">
+    <rect>
+     <x>304</x>
+     <y>200</y>
+     <width>93</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #CFA7DE;
+}</string>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="rname">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>110</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+	background-color: #FCF7EE;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Recipe Name</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="howto">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>420</y>
+     <width>431</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+	background-color: #FCF7EE;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Describe how to make this recipe</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>75</x>
+     <y>30</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Elephant</family>
+     <pointsize>26</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	color: #544242;
+}</string>
+   </property>
+   <property name="text">
+    <string>ADD RECIPE</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
