@@ -1,4 +1,4 @@
-# The-Recipe-Chooser-v1
+# The-Recipe-Chooser
 This app is made to choose recipes that include the ingredients user wants or has. Also, the user can add new recipes or delete the recipes in the database. I used "sqlite3" as database, "Qt" to create GUI, and the code is written in C++. In the video below, the app is introduced shortly.
 
 https://www.youtube.com/watch?v=Nbmj74nezcg
